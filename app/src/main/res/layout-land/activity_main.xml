@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+    <Button
+        android:id="@+id/button_capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:background="@android:drawable/presence_video_online" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings"
+            android:layout_gravity="bottom|right"
+            android:text="@string/Settings"
+            android:background="?android:attr/panelBackground"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <Button
+            android:text="@string/nagrania"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/videos_view"
+            android:layout_gravity="top|right"
+            android:background="?android:attr/panelBackground"
+            android:textColor="@android:color/holo_orange_dark" />
+    </FrameLayout>
+</LinearLayout>

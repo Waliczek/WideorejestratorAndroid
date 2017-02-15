@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/button_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@android:drawable/presence_video_online"
+             />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/settings"
+            android:layout_gravity="bottom|left"
+            android:text="@string/Settings"
+            android:background="?android:attr/panelBackground"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:text="@string/nagrania"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/videos_view"
+            android:layout_gravity="bottom|right"
+            android:background="?android:attr/panelBackground"
+            android:textColor="@android:color/holo_orange_dark"
+            tools:textStyle="bold"
+            android:textStyle="normal|bold" />
+    </FrameLayout>
+</LinearLayout>

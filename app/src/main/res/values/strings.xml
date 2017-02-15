@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WideoRejestrator</string>
+    <string name="btn_1">Nagrywaj w tle!</string>
+    <string name="btn_2">Zakończ pracę</string>
+    <string name="Settings">Ustawienia</string>
+    <string name="nagrania">Nagrania</string>
+</resources>
